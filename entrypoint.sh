@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 # 设置各变量
-WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'c664751b-b662-48f9-b2aa-2f0d4d337a7f'}
-
-# 哪吒三个参数，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-NEZHA_SERVER= 
+UUID=${UUID:-'e5666668-e3d5-11ed-b5ea-0242ac120002'}
+VMESS-WSPATH=${VMESS-WSPATH:-'e5666668-e3d5-11ed-b5ea-0242ac120002/vmess'}
+VLESS-WSPATH=${VLESS-WSPATH:-'e5666668-e3d5-11ed-b5ea-0242ac120002/vless'}
+TROJAN-WSPATH=${TROJAN-WSPATH:-'e5666668-e3d5-11ed-b5ea-0242ac120002/trojan'}
+SS-WSPATH=${SS-WSPATH:-'e5666668-e3d5-11ed-b5ea-0242ac120002/shadowsocks'}
 NEZHA_PORT=
 NEZHA_KEY=
 
